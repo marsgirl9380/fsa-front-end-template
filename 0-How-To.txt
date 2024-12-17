@@ -1,0 +1,33 @@
+Use bash in the terminal
+go to folder to hold the project
+$ npm install -g @angular/cli
+(let it load)
+
+Create folder for the project ($ mkdir full-stack-angular)
+$cd full-stack-angular
+
+$ ng new fsa-front-end-template
+Answer Questinos, I did "no" to pseudonymous
+                and "no" to SSR and SSG
+(let it load)
+
+Create the proxy.config.json file in the parent folder
+
+run program from terminal with
+$ ng serve
+You see lots of things on the webpage
+
+go to app.component.html and delete all the code but the router line at the bottom
+write the proxy.config.json file
+
+To gerate a component use the terminal, the create in the src/app folder
+$ ng generate component back-button
+$ ng generate component small-x
+
+Write/change the code in back-button.component.html
+                        back-button.component.ts
+                        small-x.component.html
+
+go to src/styles.css and paste code from github
+
+
